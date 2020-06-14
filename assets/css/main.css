@@ -1,6 +1,3 @@
-.navbar{
-    opacity: 0.5 !important;
-}
 div{
     /* border: 1px solid black; */
     padding: 0px !important;
@@ -24,13 +21,35 @@ body{
 .col-3:hover{
     border: 3px solid #101935 !important;
 }
-button{
+.button{
     background-color: #e63946;
+    padding: 10px 10px 10px 10px;
+    color: #f1faee;
 }
-button:hover{
+.button:hover{
     background-color: #a8dadc;
+    color: #1d3557;
 }
 .col{
     height: 400px !important;
     padding-left: 10px !important;
+}
+a{
+    text-decoration: none !important;
+}
+.bg-image{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("../img/bg.jpg");
+    height: 50%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+.bg-text{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
 }
