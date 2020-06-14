@@ -1,0 +1,32 @@
+.navbar{
+    opacity: 0.5 !important;
+}
+div{
+    /* border: 1px solid black; */
+    padding: 0px !important;
+}
+body{
+    background-size: cover !important;
+    background-repeat: no-repeat;
+    height: 100vh;
+    font-family: Montserrat;
+}
+.row{
+    margin: 0px auto;
+    height: 70% !important;
+}
+.button{
+    background-color: #e63946;
+    padding: 10px 10px 10px 10px;
+    color: #f1faee;
+}
+.button:hover{
+    background-color: #a8dadc;
+    color: #1d3557;
+}
+a{
+    text-decoration: none !important;
+}
+.col{
+    max-height: 400px !important;
+}

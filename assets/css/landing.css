@@ -1,0 +1,27 @@
+.card{
+    box-shadow: -2px -2px 5px #fff, 2px 2px 15px #000;
+    height: 30em !important;
+}
+.button{
+    background-color: #e63946;
+    padding: 10px 10px 10px 10px;
+    color: #f1faee;
+}
+.button:hover{
+    background-color: #a8dadc;
+    color: #1d3557;
+}
+a{
+    text-decoration: none !important;
+}
+#right{
+    background-size: cover !important;
+    background-repeat: no-repeat;
+}
+.card-body{
+    background-size: cover !important;
+}
+.col-md-4{
+    margin-top: 60px !important;
+    padding-left: 30px !important;
+}
